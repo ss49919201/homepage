@@ -1,6 +1,5 @@
 {
-  "name": "a",
-  "version": "0.1.0",
+  "name": "homepage",
   "private": true,
   "scripts": {
     "dev": "next dev",
