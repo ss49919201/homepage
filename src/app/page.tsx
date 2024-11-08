@@ -16,6 +16,10 @@ export default function Home() {
           Skils
         </h3>
 
+        <li>Go</li>
+        <li>JavaScript/TypeScript</li>
+        <li>AWS</li>
+
         <h3
           className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
           style={{ color: "var(--geist-foreground)" }}
