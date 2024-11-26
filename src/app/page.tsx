@@ -1,4 +1,5 @@
 import Footer from "@/components/ui/Footer";
+import { links, skils } from "./data";
 
 export default function Home() {
   return (
@@ -8,54 +9,35 @@ export default function Home() {
           shinshin
         </h2>
         <p>Programmer💻</p>
-
         <h3
           className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
           style={{ color: "var(--geist-foreground)" }}
         >
           Skils
         </h3>
-
-        <li>Go</li>
-        <li>JavaScript/TypeScript</li>
-        <li>AWS</li>
-
+        {skils.map((skil) => {
+          return <li key={skil}>{skil}</li>;
+        })}
         <h3
           className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
           style={{ color: "var(--geist-foreground)" }}
         >
           Links
         </h3>
-        <li>
-          <a
-            className="hover:underline hover:underline-offset-4"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            X
-          </a>
-        </li>
-        <li>
-          <a
-            className="hover:underline hover:underline-offset-4"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            GitHub
-          </a>
-        </li>
-        <li>
-          <a
-            className="hover:underline hover:underline-offset-4"
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Blog
-          </a>
-        </li>
+        {links.map(({ name, url }) => {
+          return (
+            <li key={name}>
+              <a
+                className="hover:underline hover:underline-offset-4"
+                href={url}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {name}
+              </a>
+            </li>
+          );
+        })}
       </main>
       <Footer />
     </div>
