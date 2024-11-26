@@ -10,17 +10,18 @@ export default function Home() {
         </h2>
         <div>
           <h3
-            className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
+            className="text-xl sm:text-2xl font-semibold text-center sm:text-left underline underline-offset-8"
             style={{ color: "var(--geist-foreground)" }}
           >
             Profile
           </h3>
-          <p>I&apos;m a Software Developer</p>
-          <p>I love Programing.</p>
+          <p className="my-2">
+            I&apos;m a Software Developer. I love Programing.
+          </p>
         </div>
         <div>
           <h3
-            className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
+            className="text-xl sm:text-2xl font-semibold text-center sm:text-left underline underline-offset-8"
             style={{ color: "var(--geist-foreground)" }}
           >
             Skils
@@ -37,7 +38,7 @@ export default function Home() {
         </div>
         <div>
           <h3
-            className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
+            className="text-xl sm:text-2xl font-semibold text-center sm:text-left underline underline-offset-8"
             style={{ color: "var(--geist-foreground)" }}
           >
             Links
