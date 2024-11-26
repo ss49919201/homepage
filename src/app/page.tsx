@@ -8,7 +8,16 @@ export default function Home() {
         <h2 className="text-3xl sm:text-5xl font-bold text-center sm:text-left">
           shinshin
         </h2>
-        <p>Programmer💻</p>
+        <div>
+          <h3
+            className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
+            style={{ color: "var(--geist-foreground)" }}
+          >
+            Profile
+          </h3>
+          <p>I&apos;m a Software Developer</p>
+          <p>I love Programing.</p>
+        </div>
         <div>
           <h3
             className="text-xl sm:text-2xl font-semibold text-center sm:text-left"
