@@ -1,2 +1,1 @@
-# homepage
-This is homepage.
+# Homepage
