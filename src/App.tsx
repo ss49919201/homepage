@@ -1,4 +1,3 @@
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 const skils = ["Go", "JavaScript", "TypeScript", "AWS"];
